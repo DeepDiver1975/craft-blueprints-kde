@@ -12,7 +12,7 @@ class subinfo(info.infoclass):
                 ver
             ] = f"https://github.com/linuxdeploy/linuxdeploy-plugin-qt/releases/download/{ver}/linuxdeploy-plugin-qt-x86_64.AppImage"
             # add version to file name to allow downloading multiple versions
-            self.archiveNames[ver] = f"linuxdeploy-plugin-appimage-{ver}-x86_64.AppImage"
+            self.archiveNames[ver] = f"linuxdeploy-plugin-qt-{ver}-x86_64.AppImage"
             self.targetInstallPath[ver] = "dev-utils/bin"
         self.targets[
             "continous"
