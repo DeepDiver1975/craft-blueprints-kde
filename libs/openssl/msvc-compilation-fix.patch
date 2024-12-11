@@ -1,0 +1,39 @@
+From 081d30b8f233e3ff77b48aab52ae4a10282c9dd8 Mon Sep 17 00:00:00 2001
+From: Mathias Berchtold <mberchtold@gmail.com>
+Date: Fri, 21 Apr 2023 17:16:39 -0600
+Subject: [PATCH] build_wincrypt_test.c: Fix compilation with MSVC
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+Fixes issue https://github.com/openssl/openssl/issues/20805
+
+Reviewed-by: Todd Short <todd.short@me.com>
+Reviewed-by: Tomas Mraz <tomas@openssl.org>
+
+(cherry picked from commit b5a635dc2113e1bc807ea358a670146c813df989)
+
+Reviewed-by: Saša Nedvědický <sashan@openssl.org>
+Reviewed-by: Matt Caswell <matt@openssl.org>
+(Merged from https://github.com/openssl/openssl/pull/26018)
+---
+ test/build_wincrypt_test.c | 6 +++++-
+ 1 file changed, 5 insertions(+), 1 deletion(-)
+
+diff --git a/test/build_wincrypt_test.c b/test/build_wincrypt_test.c
+index 5bd75e6a43288..0c0a54652767b 100644
+--- a/test/build_wincrypt_test.c
++++ b/test/build_wincrypt_test.c
+@@ -22,7 +22,11 @@
+ # include <wincrypt.h>
+ # ifndef X509_NAME
+ #  ifndef PEDANTIC
+-#   warning "wincrypt.h no longer defining X509_NAME before OpenSSL headers"
++#    ifdef _MSC_VER
++#      pragma message("wincrypt.h no longer defining X509_NAME before OpenSSL headers")
++#    else
++#      warning "wincrypt.h no longer defining X509_NAME before OpenSSL headers"
++#    endif
+ #  endif
+ # endif
+ #endif

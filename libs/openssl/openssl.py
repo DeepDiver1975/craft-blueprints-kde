@@ -35,13 +35,20 @@ class subinfo(info.infoclass):
             self.targetInstSrc[ver] = f"openssl-{ver}"
             self.targetDigestUrls[ver] = ([f"https://openssl.org/source/openssl-{ver}.tar.gz.sha256"], CraftHash.HashAlgorithm.SHA256)
 
-        for ver in ["3.1.1", "3.1.2"]:
+        for ver in ["3.1.1", "3.1.2", "3.1.3", "3.1.4", "3.1.5", "3.1.6", "3.1.7"]:
             self.targets[ver] = f"https://openssl.org/source/openssl-{ver}.tar.gz"
             self.targetInstSrc[ver] = f"openssl-{ver}"
             self.targetDigestUrls[ver] = ([f"https://openssl.org/source/openssl-{ver}.tar.gz.sha256"], CraftHash.HashAlgorithm.SHA256)
             self.patchToApply[ver] = [
                 ("disable-install-docs.patch", 1)
             ]  # https://github.com/microsoft/vcpkg/blob/9055f88ba53a99f51e3c733fe9c79703dc23d57d/ports/openssl/disable-install-docs.patch
+            self.patchToApply["3.1.7"] = [
+                # https://github.com/microsoft/vcpkg/blob/9055f88ba53a99f51e3c733fe9c79703dc23d57d/ports/openssl/disable-install-docs.patch
+                ("disable-install-docs.patch", 1),
+                # https://github.com/openssl/openssl/commit/081d30b8f233e3ff77b48aab52ae4a10282c9dd8
+                ("msvc-compilation-fix.patch", 1)
+            ] 
+
 
         self.patchLevel["3.1.1"] = 1
 
