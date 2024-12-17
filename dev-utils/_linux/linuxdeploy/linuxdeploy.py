@@ -6,13 +6,13 @@ class subinfo(info.infoclass):
         for ver in ["1-alpha-20240109-1"]:
             self.targets[
                 ver
-            ] = f"https://github.com/linuxdeploy/linuxdeploy/releases/download/{ver}/linuxdeploy-static-{CraftCore.compiler.appImageArchitecture}.AppImage"
+            ] = f"https://github.com/linuxdeploy/linuxdeploy/releases/download/{ver}/linuxdeploy-static-x86_64.AppImage"
             # add version to file name to allow downloading multiple versions
-            self.archiveNames[ver] = f"linuxdeploy-{ver}-{CraftCore.compiler.appImageArchitecture}.AppImage"
+            self.archiveNames[ver] = f"linuxdeploy-{ver}-x86_64.AppImage"
             self.targetInstallPath[ver] = "dev-utils/bin"
         self.targets[
             "continous-static"
-        ] = f"https://github.com/linuxdeploy/linuxdeploy/releases/download/continuous/linuxdeploy-static-{CraftCore.compiler.appImageArchitecture}.AppImage"
+        ] = f"https://github.com/linuxdeploy/linuxdeploy/releases/download/continuous/linuxdeploy-static-x86_64.AppImage"
         self.targetInstallPath["continous-static"] = "dev-utils/bin"
         self.targetDigests["1-alpha-20231206-1"] = (["80de10fa339564d78e50cbde8dd27d012b7c2274291006506d22b4eb494bc7a3"], CraftHash.HashAlgorithm.SHA256)
         self.defaultTarget = "1-alpha-20240109-1"

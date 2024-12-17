@@ -10,13 +10,13 @@ class subinfo(info.infoclass):
         for ver in ["1-alpha-20240109-1"]:
             self.targets[
                 ver
-            ] = f"https://github.com/linuxdeploy/linuxdeploy-plugin-qt/releases/download/{ver}/linuxdeploy-plugin-qt-{CraftCore.compiler.appImageArchitecture}.AppImage"
+            ] = f"https://github.com/linuxdeploy/linuxdeploy-plugin-qt/releases/download/{ver}/linuxdeploy-plugin-qt-x86_64.AppImage"
             # add version to file name to allow downloading multiple versions
-            self.archiveNames[ver] = f"linuxdeploy-plugin-appimage-{ver}-{CraftCore.compiler.appImageArchitecture}.AppImage"
+            self.archiveNames[ver] = f"linuxdeploy-plugin-appimage-{ver}-x86_64.AppImage"
             self.targetInstallPath[ver] = "dev-utils/bin"
         self.targets[
             "continous"
-        ] = f"https://github.com/linuxdeploy/linuxdeploy-plugin-qt/releases/download/continuous/linuxdeploy-plugin-qt-{CraftCore.compiler.appImageArchitecture}.AppImage"
+        ] = f"https://github.com/linuxdeploy/linuxdeploy-plugin-qt/releases/download/continuous/linuxdeploy-plugin-qt-x86_64.AppImage"
         self.targetInstallPath["continous"] = "dev-utils/bin"
         self.description = "AppDir creation and maintenance tool. Featuring flexible plugin system."
         self.webpage = "https://github.com/linuxdeploy/linuxdeploy"
