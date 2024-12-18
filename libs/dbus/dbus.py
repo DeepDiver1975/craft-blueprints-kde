@@ -109,6 +109,7 @@ class PackageAutotools(AutoToolsPackageBase):
             "--enable-verbose-mode "
             "--without-x "
             "--disable-tests "
+            "--disable-systemd "
         )
         if CraftCore.compiler.isMacOS:
             self.subinfo.options.configure.args += (
