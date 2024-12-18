@@ -57,7 +57,6 @@ class PackageCMake(CMakePackageBase):
     def __init__(self, **args):
         CMakePackageBase.__init__(self)
         self.subinfo.options.configure.args = "-DDBUS_BUILD_TESTS=OFF " "-DDBUS_ENABLE_XML_DOCS=OFF "
-        self.subinfo.options.configure.args += "-DENABLE_SYSTEMD=OFF "
 
         if self.buildType() == "Debug":
             self.subinfo.options.configure.args += "-DDBUS_ENABLE_VERBOSE_MODE=ON "
@@ -108,6 +107,7 @@ class PackageAutotools(AutoToolsPackageBase):
             "--enable-verbose-mode "
             "--without-x "
             "--disable-tests "
+            "--disable-systemd "
         )
         if CraftCore.compiler.isMacOS:
             self.subinfo.options.configure.args += (
