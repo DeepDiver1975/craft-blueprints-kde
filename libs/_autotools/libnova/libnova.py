@@ -1,4 +1,5 @@
 import info
+from Utils import CraftHash
 
 
 #

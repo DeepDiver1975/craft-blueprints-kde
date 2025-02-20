@@ -25,6 +25,7 @@
 import info
 from Package.AutoToolsPackageBase import *
 from Utils.PostInstallRoutines import *
+from Utils import CraftHash
 
 
 class subinfo(info.infoclass):

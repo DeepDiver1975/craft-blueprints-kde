@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 import info
+from Utils import CraftHash
 
 
 class subinfo(info.infoclass):

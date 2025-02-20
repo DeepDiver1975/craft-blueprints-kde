@@ -26,6 +26,7 @@ import CraftCore
 import info
 from Package.AutoToolsPackageBase import *
 from Package.MSBuildPackageBase import *
+from Utils import CraftHash
 
 
 class subinfo(info.infoclass):

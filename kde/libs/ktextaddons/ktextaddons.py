@@ -2,6 +2,7 @@
 # SPDX-FileCopyrightText: 2023 Laurent Montel <montel@kde.org>
 
 import info
+from Utils import CraftHash
 
 
 class subinfo(info.infoclass):

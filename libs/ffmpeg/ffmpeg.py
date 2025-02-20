@@ -2,6 +2,7 @@ import os
 
 import info
 from Blueprints.CraftVersion import CraftVersion
+from Utils import CraftHash
 
 
 class subinfo(info.infoclass):

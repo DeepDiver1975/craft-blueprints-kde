@@ -1,5 +1,6 @@
 import info
 from Package.MSBuildPackageBase import *
+from Utils import CraftHash
 
 
 class subinfo(info.infoclass):

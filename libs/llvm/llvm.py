@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 import info
 from Package import CMakePackageBase
+from Utils import CraftHash
 
 
 class subinfo(info.infoclass):

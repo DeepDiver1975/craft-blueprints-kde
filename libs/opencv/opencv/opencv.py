@@ -1,6 +1,7 @@
 import info
 from Blueprints.CraftPackageObject import CraftPackageObject
 from Package.CMakePackageBase import *
+from Utils import CraftHash
 
 
 class subinfo(info.infoclass):

@@ -1,6 +1,7 @@
 import info
 from Package.CMakePackageBase import *
 from Package.MakeFilePackageBase import *
+from Utils import CraftHash
 
 
 class subinfo(info.infoclass):

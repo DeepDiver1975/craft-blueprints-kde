@@ -1,4 +1,5 @@
 import info
+from Utils import CraftHash
 
 
 class subinfo(info.infoclass):

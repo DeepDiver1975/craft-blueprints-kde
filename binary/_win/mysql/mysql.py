@@ -3,6 +3,7 @@ import shutil
 import info
 from CraftCompiler import CraftCompiler
 from Package.BinaryPackageBase import *
+from Utils import CraftHash
 
 
 class subinfo(info.infoclass):

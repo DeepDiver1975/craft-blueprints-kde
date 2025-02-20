@@ -3,6 +3,7 @@
 # SPDX-FileCopyrightText: 2023 Julius Künzel <jk.kdedev@smartlab.uber.space>
 import info
 from Package.AutoToolsPackageBase import *
+from Utils import CraftHash
 
 
 class subinfo(info.infoclass):

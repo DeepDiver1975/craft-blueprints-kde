@@ -1,6 +1,7 @@
 import info
 from CraftConfig import *
 from Package.MesonPackageBase import *
+from Utils import CraftHash
 
 
 class subinfo(info.infoclass):

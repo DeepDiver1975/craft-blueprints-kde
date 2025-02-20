@@ -1,6 +1,7 @@
 import info
 from CraftOS.osutils import OsUtils
 from Packager.AppImagePackager import AppImagePackager
+from Utils import CraftHash
 
 
 class subinfo(info.infoclass):

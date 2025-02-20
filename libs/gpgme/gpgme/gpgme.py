@@ -28,6 +28,8 @@ import CraftCore
 import info
 from Package.AutoToolsPackageBase import *
 from Package.BinaryPackageBase import *
+from Utils import CraftHash
+
 
 if not CraftCore.compiler.isMSVC():
 

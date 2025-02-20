@@ -1,5 +1,6 @@
 import info
 from Packager.CollectionPackagerBase import PackagerLists
+from Utils import CraftHash
 
 
 class subinfo(info.infoclass):

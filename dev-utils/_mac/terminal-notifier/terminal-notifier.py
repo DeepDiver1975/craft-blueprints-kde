@@ -1,7 +1,7 @@
 import stat
 from pathlib import Path
-
 import info
+from Utils import CraftHash
 
 
 class subinfo(info.infoclass):

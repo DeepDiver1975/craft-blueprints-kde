@@ -6,6 +6,7 @@ import info
 from CraftCompiler import CraftCompiler
 from Package.MakeFilePackageBase import *
 from shells import BashShell
+from Utils import CraftHash
 
 nss_ver = "3.93"
 nspr_ver = "4.35"

@@ -2,6 +2,7 @@
 import info
 from CraftCompiler import CraftCompiler
 from Package.MakeFilePackageBase import MakeFilePackageBase
+from Utils import CraftHash
 
 
 class subinfo(info.infoclass):
