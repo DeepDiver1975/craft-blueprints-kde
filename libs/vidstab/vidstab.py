@@ -1,6 +1,10 @@
 import info
+<<<<<<< Updated upstream
 from CraftCore import CraftCore
 from Package.CMakePackageBase import CMakePackageBase
+=======
+from Blueprints.CraftVersion import CraftVersion
+>>>>>>> Stashed changes
 from Utils import CraftHash
 
 

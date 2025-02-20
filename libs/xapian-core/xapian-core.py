@@ -1,8 +1,12 @@
 import info
+<<<<<<< Updated upstream
 import utils
 from CraftCore import CraftCore
 from CraftOS.osutils import OsUtils
 from Package.AutoToolsPackageBase import AutoToolsPackageBase
+=======
+from Package.AutoToolsPackageBase import *
+>>>>>>> Stashed changes
 from Utils import CraftHash
 
 

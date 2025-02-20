@@ -2,6 +2,7 @@
 import info
 from CraftCore import CraftCore
 from Package.AutoToolsPackageBase import *
+from Utils import CraftHash
 
 
 class subinfo(info.infoclass):

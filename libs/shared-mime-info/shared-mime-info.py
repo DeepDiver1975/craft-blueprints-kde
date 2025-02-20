@@ -26,6 +26,7 @@ import info
 import utils
 from CraftCore import CraftCore
 from Utils.PostInstallRoutines import *
+from Utils import CraftHash
 
 
 class subinfo(info.infoclass):

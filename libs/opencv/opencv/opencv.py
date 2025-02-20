@@ -1,9 +1,13 @@
 import info
 from Blueprints.CraftPackageObject import CraftPackageObject
+<<<<<<< Updated upstream
 from CraftCompiler import CraftCompiler
 from CraftCore import CraftCore
 from CraftOS.osutils import OsUtils
 from Package.CMakePackageBase import CMakePackageBase
+=======
+from Package.CMakePackageBase import *
+>>>>>>> Stashed changes
 from Utils import CraftHash
 
 

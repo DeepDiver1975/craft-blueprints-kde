@@ -26,6 +26,7 @@ import re
 
 import info
 from Package.AutoToolsPackageBase import *
+from Utils import CraftHash
 
 
 class subinfo(info.infoclass):

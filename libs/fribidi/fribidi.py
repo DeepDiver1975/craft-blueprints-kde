@@ -1,6 +1,9 @@
 import info
+<<<<<<< Updated upstream
 from CraftCore import CraftCore
 from Package.MesonPackageBase import MesonPackageBase
+=======
+>>>>>>> Stashed changes
 from Utils import CraftHash
 
 

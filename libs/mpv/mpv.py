@@ -3,6 +3,7 @@
 
 import info
 from Package.MesonPackageBase import *
+from Utils import CraftHash
 
 
 class subinfo(info.infoclass):

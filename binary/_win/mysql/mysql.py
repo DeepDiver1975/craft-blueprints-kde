@@ -4,9 +4,13 @@ import shutil
 import info
 import utils
 from CraftCompiler import CraftCompiler
+<<<<<<< Updated upstream
 from CraftCore import CraftCore
 from CraftStandardDirs import CraftStandardDirs
 from Package.BinaryPackageBase import BinaryPackageBase
+=======
+from Package.BinaryPackageBase import *
+>>>>>>> Stashed changes
 from Utils import CraftHash
 
 

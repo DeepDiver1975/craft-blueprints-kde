@@ -1,5 +1,6 @@
 import info
 from Package.BinaryPackageBase import *
+from Utils import CraftHash
 
 
 class subinfo(info.infoclass):

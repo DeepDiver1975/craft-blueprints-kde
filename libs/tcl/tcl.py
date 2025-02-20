@@ -27,11 +27,16 @@ import shutil
 import stat
 
 import info
+<<<<<<< Updated upstream
 import utils
 from CraftCore import CraftCore
 from CraftOS.osutils import OsUtils
 from Package.AutoToolsPackageBase import AutoToolsPackageBase
 from Package.MSBuildPackageBase import MSBuildPackageBase
+=======
+from Package.AutoToolsPackageBase import *
+from Package.MSBuildPackageBase import *
+>>>>>>> Stashed changes
 from Utils import CraftHash
 
 

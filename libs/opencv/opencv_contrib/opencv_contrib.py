@@ -1,6 +1,9 @@
 # -*- coding: utf-8 -*-
 import info
+<<<<<<< Updated upstream
 from Package.VirtualPackageBase import SourceComponentPackageBase
+=======
+>>>>>>> Stashed changes
 from Utils import CraftHash
 
 

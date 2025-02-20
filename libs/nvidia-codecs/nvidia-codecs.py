@@ -1,7 +1,10 @@
 import info
+<<<<<<< Updated upstream
 import utils
 from CraftStandardDirs import CraftStandardDirs
 from Package.BinaryPackageBase import BinaryPackageBase
+=======
+>>>>>>> Stashed changes
 from Utils import CraftHash
 
 

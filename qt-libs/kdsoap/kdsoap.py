@@ -1,7 +1,11 @@
 # -*- coding: utf-8 -*-
 
 import info
+<<<<<<< Updated upstream
 from Package.CMakePackageBase import CMakePackageBase
+=======
+from Package.CMakePackageBase import *
+>>>>>>> Stashed changes
 from Utils import CraftHash
 
 

@@ -1,7 +1,10 @@
 import info
 from CraftCore import CraftCore
 from Package.AutoToolsPackageBase import AutoToolsPackageBase
+<<<<<<< Updated upstream
 from Package.CMakePackageBase import CMakePackageBase
+=======
+>>>>>>> Stashed changes
 from Utils import CraftHash
 
 

@@ -1,7 +1,12 @@
 import info
+<<<<<<< Updated upstream
 from CraftCore import CraftCore
 from Package.AutoToolsPackageBase import AutoToolsPackageBase
 from Package.MSBuildPackageBase import MSBuildPackageBase
+=======
+from Package.AutoToolsPackageBase import *
+from Package.MSBuildPackageBase import *
+>>>>>>> Stashed changes
 from Utils import CraftHash
 
 

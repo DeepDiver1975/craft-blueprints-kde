@@ -1,7 +1,11 @@
 # -*- coding: utf-8 -*-
 import info
+<<<<<<< Updated upstream
 from CraftCore import CraftCore
 from Package.PerlPackageBase import PerlPackageBase
+=======
+from Package.PerlPackageBase import *
+>>>>>>> Stashed changes
 from Utils import CraftHash
 
 

@@ -1,6 +1,9 @@
 import info
+<<<<<<< Updated upstream
 import utils
 from Package.CMakePackageBase import CMakePackageBase
+=======
+>>>>>>> Stashed changes
 from Utils import CraftHash
 
 

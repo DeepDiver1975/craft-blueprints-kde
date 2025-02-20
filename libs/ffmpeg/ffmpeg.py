@@ -3,10 +3,13 @@ import os
 import info
 import utils
 from Blueprints.CraftVersion import CraftVersion
+<<<<<<< Updated upstream
 from CraftCompiler import CraftCompiler
 from CraftCore import CraftCore
 from CraftStandardDirs import CraftStandardDirs
 from Package.AutoToolsPackageBase import AutoToolsPackageBase
+=======
+>>>>>>> Stashed changes
 from Utils import CraftHash
 
 

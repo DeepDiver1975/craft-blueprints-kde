@@ -1,6 +1,10 @@
 import info
+<<<<<<< Updated upstream
 from CraftCompiler import CraftCompiler
 from Package.CMakePackageBase import CMakePackageBase
+=======
+from Package.CMakePackageBase import *
+>>>>>>> Stashed changes
 from Utils import CraftHash
 
 

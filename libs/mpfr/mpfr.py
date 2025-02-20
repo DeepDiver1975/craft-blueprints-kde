@@ -2,7 +2,11 @@
 # SPDX-License-Identifier: BSD-2-Clause
 
 import info
+<<<<<<< Updated upstream
 from Package.AutoToolsPackageBase import AutoToolsPackageBase
+=======
+from Package.AutoToolsPackageBase import *
+>>>>>>> Stashed changes
 from Utils import CraftHash
 
 

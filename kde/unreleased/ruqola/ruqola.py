@@ -23,8 +23,12 @@
 # SUCH DAMAGE.
 
 import info
+<<<<<<< Updated upstream
 from Blueprints.CraftPackageObject import CraftPackageObject
 from CraftCore import CraftCore
+=======
+from Utils import CraftHash
+>>>>>>> Stashed changes
 
 
 class subinfo(info.infoclass):

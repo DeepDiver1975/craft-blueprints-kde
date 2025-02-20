@@ -1,6 +1,9 @@
 import info
+<<<<<<< Updated upstream
 import utils
 from Package.SourceOnlyPackageBase import SourceOnlyPackageBase
+=======
+>>>>>>> Stashed changes
 from Utils import CraftHash
 
 

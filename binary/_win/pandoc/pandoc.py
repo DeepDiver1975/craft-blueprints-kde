@@ -4,8 +4,11 @@ import os
 import info
 import utils
 from CraftCompiler import CraftCompiler
+<<<<<<< Updated upstream
 from CraftCore import CraftCore
 from Package.BinaryPackageBase import BinaryPackageBase
+=======
+>>>>>>> Stashed changes
 from Utils import CraftHash
 
 

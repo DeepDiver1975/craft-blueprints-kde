@@ -1,9 +1,14 @@
 import os
 
 import info
+<<<<<<< Updated upstream
 import utils
 from CraftCore import CraftCore
 from Package.MakeFilePackageBase import MakeFilePackageBase
+=======
+from CraftConfig import *
+from CraftOS.osutils import OsUtils
+>>>>>>> Stashed changes
 from Utils import CraftHash
 
 

@@ -2,8 +2,13 @@
 # SPDX-License-Identifier: BSD-2-Clause
 
 import info
+<<<<<<< Updated upstream
 from Blueprints.CraftPackageObject import CraftPackageObject
 from CraftCore import CraftCore
+=======
+from CraftConfig import *
+from CraftOS.osutils import OsUtils
+>>>>>>> Stashed changes
 from Utils import CraftHash
 
 

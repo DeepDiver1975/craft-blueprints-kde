@@ -1,5 +1,8 @@
 import info
+<<<<<<< Updated upstream
 from Package.AutoToolsPackageBase import AutoToolsPackageBase
+=======
+>>>>>>> Stashed changes
 from Utils import CraftHash
 
 

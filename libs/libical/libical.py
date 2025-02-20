@@ -1,5 +1,9 @@
 import info
+<<<<<<< Updated upstream
 from CraftCore import CraftCore
+=======
+from Utils import CraftHash
+>>>>>>> Stashed changes
 
 
 class subinfo(info.infoclass):

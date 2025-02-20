@@ -1,6 +1,10 @@
 # -*- coding: utf-8 -*-
 import info
+<<<<<<< Updated upstream
 from Package.PerlPackageBase import PerlPackageBase
+=======
+from Package.PerlPackageBase import *
+>>>>>>> Stashed changes
 from Utils import CraftHash
 
 

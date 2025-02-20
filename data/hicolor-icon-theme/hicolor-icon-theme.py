@@ -3,7 +3,10 @@
 # SPDX-FileCopyrightText: 2017 Hannah von Reth <vonreth@kde.org>
 
 import info
+<<<<<<< Updated upstream
 from Package.MesonPackageBase import MesonPackageBase
+=======
+>>>>>>> Stashed changes
 from Utils import CraftHash
 
 

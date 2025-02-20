@@ -2,8 +2,12 @@
 # SPDX-FileCopyrightText: 2023 Laurent Montel <montel@kde.org>
 
 import info
+<<<<<<< Updated upstream
 from Blueprints.CraftPackageObject import CraftPackageObject
 from CraftCore import CraftCore
+=======
+from Utils import CraftHash
+>>>>>>> Stashed changes
 
 
 class subinfo(info.infoclass):
